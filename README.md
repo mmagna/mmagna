@@ -13,7 +13,7 @@
 
 ## 👨‍💻 About Me
 
-I'm Moisés, a passionate Full Stack Developer from Chile with a knack for creating innovative web solutions. Currently enhancing Risk and Fraud systems at Banco de Chile.
+I'm Moisés, a passionate Full Stack Developer from Chile with a knack for creating innovative web solutions. I have extensive experience in e-commerce platforms, custom business systems, and financial technology. Currently working at Banco de Chile, developing enterprise-level applications.
 
 ### 🎯 Current Focus
 - Developing robust full-stack applications
@@ -35,10 +35,10 @@ class Developer {
   
   workExperience(): Experience[] {
     return [
-      { company: 'Banco de Chile', role: 'Full Stack Developer' },
-      { company: 'Summa Solutions', role: 'Full Stack Team Lead' },
-      { company: 'Linets', role: 'Full Stack Developer' },
-      { company: 'Vass Latam', role: 'Frontend Developer' }
+      { company: 'Banco de Chile', role: 'Full Stack Developer', focus: 'Enterprise Solutions' },
+      { company: 'Summa Solutions', role: 'Full Stack Team Lead', focus: 'E-commerce' },
+      { company: 'Linets', role: 'Full Stack Developer', focus: 'Custom Business Systems' },
+      { company: 'Vass Latam', role: 'Frontend Developer', focus: 'Telecommunications' }
     ];
   }
 }
